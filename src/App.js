@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 function App() {
   return (
     <>
-    <div>sajjan</div>
+    <div>sajjan singh</div>
     <Router>
       <Routes>
         <Route path="/" element={<Home />}/>
