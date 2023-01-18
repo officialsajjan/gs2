@@ -3,11 +3,13 @@ import Home from "./pages/Home";
 import Forgate from "./pages/Forgate";
 import Offers from "./pages/Offers";
 import Signin from "./pages/Signin"
+import Header from "./components/Header"
 function App() {
   return (
     <>
-    <div>sajjan singh jasawat</div>
-    <Router>
+     <Router>
+        <Header>
+        </Header>
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="Forgate" element={<Forgate />}/>
