@@ -5,8 +5,6 @@ import Offers from "./pages/Offers";
 import Signin from "./pages/Signin"
 import Header from "./components/Header"
 function App() {
-
-  
   return (
     <>
      <Router>
